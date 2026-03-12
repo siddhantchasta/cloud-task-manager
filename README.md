@@ -11,22 +11,9 @@ This project demonstrates **modern backend engineering practices**, including se
 
 All client requests pass through a centralized **API Gateway**, which routes them to individual microservices.
 
-```
-Client
-  │
-  ▼
-API Gateway
-  │
-  ├── Auth Service
-  ├── Task Service
-  └── Notification Service
-        │
-        ▼
-       Redis
-        │
-        ▼
-      MongoDB
-```
+## System Architecture
+
+![Architecture](architecture.png)
 
 ### Architecture Overview
 
@@ -252,3 +239,4 @@ Redis → localhost:6379
 
 Siddhant Chasta
 IIT Kharagpur
+
