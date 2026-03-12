@@ -15,21 +15,6 @@ All client requests pass through a centralized **API Gateway**, which routes the
 
 ![Architecture](architecture.png)
 
-## Cloud Deployment Architecture
-```
-Internet
-   ↓
-Cloud Server
-   ↓
-Docker Containers
-   ↓
-API Gateway
-   ↓
-Microservices
-   ↓
-Redis + MongoDB
-```
-
 ### Architecture Overview
 
 * **API Gateway** → Routes incoming requests to microservices
