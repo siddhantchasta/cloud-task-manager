@@ -4,12 +4,11 @@ const axios = require("axios");
 const rateLimit = require("express-rate-limit");
 const morgan = require("morgan");
 
-app.use(morgan("dev"));
-
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use(morgan("dev"));
 
 const limiter = rateLimit({
   windowMs: 60 * 1000, // 1 minute
