@@ -197,7 +197,7 @@ Redis caching reduces repeated database queries and improves performance.
 Clone the repository
 
 ```
-git clone <repository-url>
+git clone https://github.com/siddhantchasta/cloud-task-manager.git
 cd cloud-task-manager
 ```
 
